@@ -43,9 +43,9 @@ function GenerateNotes(value) {
 
     document.getElementById("generate").innerHTML = "Copied to clipboard";
 
-    document.getElementsById("stopCall").click();
+    document.getElementById("stopCall").click();
 }
 
 function clickStopButton() {
-    document.getElementsById("stopCall").click();
+    document.getElementById("stopCall").click();
 }
